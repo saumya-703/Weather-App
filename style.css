@@ -2,6 +2,7 @@
     margin: 0dp;
     padding: 0dp;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background: #272727;
@@ -15,4 +16,34 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 20px 25px;
+    height: 25px;
+    border-radius: 35px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search-box button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+.search-box button img{
+    width: 16px;
 }
