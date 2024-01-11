@@ -80,3 +80,14 @@ body{
 .col p{
     font-size: 18px;
 }
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+
+}
